@@ -1,0 +1,19 @@
+{
+  "name": "Movie Posters",
+  "description": "Shows you different movie posters replacing your old tab layout",
+  "version": "0.0.1",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "http://*/",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "chrome_url_overrides" : {
+    "newtab": "page.html"
+  },
+  "manifest_version": 2
+}
